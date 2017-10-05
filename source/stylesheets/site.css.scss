@@ -1,5 +1,5 @@
 body {
-  background-color: #fbc547;
+  background-color: white;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -21,4 +21,10 @@ a {
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
+}
+
+#home-banner {
+  background-size: cover;
+  background-image: url('/images/temp-home-banner.jpg');
+  height: 100%;
 }
